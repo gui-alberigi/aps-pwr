@@ -1,4 +1,6 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,11 +10,16 @@
 body {
     height: 100vh;
     width: 100vw;
+    font-family: 'Chivo Mono', monospace;
     font-size: 100%;
     background: rgb(35,45,40);
     background: linear-gradient(200deg, rgba(35,45,40,1) 0%, rgba(65,107,74,1) 100%);
 }
 
-{
-
+#first_h1 {
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 5rem;
+    text-align: center;
 }
+
