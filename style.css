@@ -16,10 +16,27 @@ body {
     background: linear-gradient(200deg, rgba(35,45,40,1) 0%, rgba(65,107,74,1) 100%);
 }
 
-#first_h1 {
+.first_h1 {
     color: whitesmoke;
     margin-top: 20px;
     font-size: 5rem;
     text-align: center;
 }
 
+.first_content {
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 28px;
+}
+
+.nav_bar {
+    color: wheat;
+}
+
+.photo_drone {
+    display: block;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
