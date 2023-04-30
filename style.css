@@ -45,10 +45,10 @@ li a:hover {
 .first_h1 {
     color: whitesmoke;
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 60px;
     font-family: sans-serif;
     text-align: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .main_content {
@@ -56,28 +56,28 @@ li a:hover {
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     margin-left: 40px;
-    font-size: 28px;
+    font-size: 40px;
     padding: 20px;
 }
 
 .text_h1 {
-    margin: 20px 15px;
+    margin: 25px 15px;
     color: #dda15e;
 }
 
 .text_h2 {
-    margin: 20px 15px;
+    margin: 25px 15px;
     color: #dda15e;
 }
 
 .text_h3 {
-    margin: 20px 15px;
+    margin: 25px 15px;
     color: #dda15e;
 }
 
 .text_p {
-    margin: 15px 10px;
-    font-size: 20px;
+    margin: 15px;
+    font-size: 30px;
 }
 
 .section_text {
@@ -85,12 +85,37 @@ li a:hover {
     text-align: center;
 }
 
-.photo_drone {
-    float: right; 
-    margin-left: 10px; 
+.photo_drone { 
+    margin: auto;
+    margin-bottom: 20px;
     /*height: 200px;
     width: 200px;*/
-    width: 45%;
+    width: 40%;
+    height: 15%;
+    display: block;
+    border-radius: 5%;
+}
+
+.photo_coffee {
+    margin: auto;
+    float: right;
+    margin-bottom: 20px;
+    /*height: 200px;
+    width: 200px;*/
+    width: 40%;
+    height: 15%;
+    display: block;
+    border-radius: 5%;
+    
+}
+
+.photo_cell { 
+    margin: auto;
+    float: right;
+    /*height: 200px;
+    width: 200px;*/
+    width: 40%;
+    height: 10%;
     display: block;
     border-radius: 5%;
 }
